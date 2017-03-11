@@ -1,0 +1,198 @@
+.navbar a {
+    color: white !important;
+}
+
+.rounded-circle {
+    border-radius: 50%;
+}
+
+.btn2 {
+    border: 2px solid;
+    border-radius: 45px;
+}
+
+.navbar, .navbar-header {
+    background: rgba(1, 0, 0, 0);
+    border-color: #E7E7E7;
+}
+
+.navbar-default {
+    box-shadow: none !important;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-color: rgba(1, 0, 0, 0);
+    padding: 8px;
+}
+
+.home-header {
+    background: url('../images/indexBG3.png') no-repeat bottom center;
+    background-size: cover;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 220px;
+}
+
+.yaHei {
+    font-family: "Microsoft YaHei", 微软雅黑, "MicrosoftJhengHei", 华文细黑, STHeiti, MingLiu, sans-serif;
+}
+
+.header-title {
+    margin-top: 150px;
+    margin-bottom: 100px;
+    font-size: 5em;
+    color: white;
+}
+
+footer hr {
+    height: 2px;
+    border: none;
+    border-top: 2px #185598;
+}
+
+h1 {
+    color: #6b6b80;
+    font-size: 28px;
+}
+
+p {
+    color: #acacba;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+svg {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+svg path {
+    fill-opacity: 0;
+    stroke: #29882F;
+    stroke-width: 20;
+    stroke-dasharray: 85;
+    stroke-dashoffset: 1000;
+    animation: draw 1s infinite linear;
+}
+
+#star {
+    animation: star-morph 3s infinite linear;
+}
+
+#red1, #red2, #red3, #red4, #red5, #red6 {
+    animation: color-morph 3s infinite linear;
+}
+
+#yel1, #yel2, #yel3, #yel4, #yel5, #yel6, #yel7 {
+    animation: color-morph 3s infinite linear;
+    animation-delay: 1s;
+}
+
+#blu1, #blu2, #blu3, #blu4, #blu5 {
+    animation: color-morph 3s infinite linear;
+    animation-delay: 2s;
+}
+
+@keyframes star-morph {
+    0% {
+        opacity: .4
+    }
+    33% {
+        opacity: .6
+    }
+    66% {
+        opacity: 1
+    }
+}
+
+@keyframes color-morph {
+    0% {
+        fill: #EFF119
+    }
+    33% {
+        fill: #C30E0E
+    }
+    66% {
+        fill: #168BAF
+    }
+}
+
+.card-overlay {
+    background-size: cover;
+    height: 360px;
+}
+
+.yc-text-center > :first-child {
+    color: black;
+}
+
+.yc-text-center p {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.yc-text-center {
+    margin-left: -80px;
+    margin-top: 32px;
+}
+
+.word {
+    position: absolute;
+    opacity: 0;
+}
+
+.letter {
+    display: inline-block;
+    position: relative;
+    float: left;
+    transform: translateZ(25px);
+    transform-origin: 50% 50% 25px;
+}
+
+.letter.out {
+    transform: rotateX(90deg);
+    transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.letter.behind {
+    transform: rotateX(-90deg);
+}
+
+.letter.in {
+    transform: rotateX(0deg);
+    transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.wisteria {
+    color: #8e44ad;
+}
+
+.belize {
+    color: #2980b9;
+}
+
+.pomegranate {
+    color: #c0392b;
+}
+
+.green-yc {
+    color: green;
+}
+
+.midnight {
+    color: #2c3e50;
+}
+
+footer {
+    margin-top: 120px !important;
+}

@@ -1,0 +1,55 @@
+#commentHeader{
+    border: solid 1px ;
+    border-radius: 10px;
+    margin: 20px;
+    width: 100%;
+    background: rgba(1, 168, 253, 0.51);
+    text-shadow: 0 0 10px #fff, 0 0 15px #fff,
+    0 0 40px #ff00de ,0 0 40px #ff00de
+}
+.comment
+{
+    border:solid 2px ;
+    margin: 20px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.star {
+    display: inline-block;
+    background: #FFF;
+    font-size: 20px;
+}
+
+#creditProgress
+{
+    width: 100px;
+    position: relative;
+    right: 2px;
+}
+
+.commentText
+{
+    overflow: auto;
+}
+
+.border-head table
+{
+    font-size: x-small;
+}
+.border-head table td
+{
+    margin-right: 5px;
+}
+dt, dd {
+    line-height: 1.42857143;
+}
+body
+{
+    color: #2b577a;
+    font-family: Helvetica,"Hiragino Sans GB W3",arial,sans-serif;
+    line-height: 1;
+    display: block;
+    font-size: medium;
+    background-color: #f1f2f7;
+}

@@ -1,0 +1,47 @@
+#star {
+    transform: rotateY(180deg);
+    display: inline-block;
+    background: #FFF;
+    font-size: 40px;
+}
+
+#star input[type="radio"]:checked + label>span,
+#star input[type="radio"]:checked ~ label>span,
+#star input[type="radio"] + label:hover > span,
+#star input[type="radio"] + label:hover ~ label > span {
+    color: yellow;
+    cursor: pointer;
+}
+
+#star input[type="radio"] + label:hover ~ label > span {
+    opacity: 0.5;
+}
+
+#star label>span::before {
+    content: "☆";
+}
+
+label>span::after {
+    content: "★";
+    display: none
+}
+
+#star input[type="radio"]:checked + label>span::before,
+#star input[type="radio"]:checked ~ label > span::before,
+#star input[type="radio"] + label:hover > span::before,
+#star input[type="radio"] + label:hover ~ label > span::before {
+    display: none;
+}
+
+#star input[type="radio"]:checked + label>span::after,
+#star input[type="radio"]:checked ~ label > span::after,
+#star input[type="radio"] + label:hover>span::after,
+#star input[type="radio"] + label:hover ~ label > span::after {
+    display: inline-block;
+}
+
+#error
+{
+    color: red;
+    font-size: 20px;
+}

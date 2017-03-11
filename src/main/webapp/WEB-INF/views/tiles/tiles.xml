@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC  "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+        "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+
+    <!-- Base Definition -->
+    <definition name="base-definition"
+                template="/WEB-INF/views/tiles/layouts/defaultLayout.jsp">
+        <put-attribute name="title" value=""/>
+        <put-attribute name="header" value="/WEB-INF/views/tiles/template/defaultHeader.jsp"/>
+        <put-attribute name="menu" value="/WEB-INF/views/tiles/template/defaultMenu.jsp"/>
+        <put-attribute name="body" value=""/>
+        <put-attribute name="footer" value="/WEB-INF/views/tiles/template/defaultFooter.jsp"/>
+    </definition>
+
+    <!-- Main Page -->
+    <definition name="main" extends="base-definition">
+        <put-attribute name="title" value="约车"/>
+        <put-attribute name="body" value="/WEB-INF/views/pages/main.jsp"/>
+    </definition>
+
+    <definition name="home.select" extends="base-definition">
+        <put-attribute name="title" value="房间浏览"/>
+        <put-attribute name="body" value="/WEB-INF/views/pages/selectRoomType.jsp"/>
+    </definition>
+
+    <definition name="room.create" extends="base-definition">
+        <put-attribute name="title" value="房间创建"/>
+        <put-attribute name="body" value="/WEB-INF/views/pages/createRoom.jsp"/>
+    </definition>
+
+    <definition name="room.join" extends="base-definition">
+        <put-attribute name="title" value="加入房间"/>
+        <put-attribute name="body" value="/WEB-INF/views/pages/joinRoom.jsp"/>
+    </definition>
+
+    <definition name="room.detail" extends="base-definition">
+        <put-attribute name="title" value="房间信息"/>
+        <put-attribute name="body" value="/WEB-INF/views/pages/roomDetail.jsp"/>
+    </definition>
+
+    <definition name="room.addSucceed" extends="base-definition">
+        <put-attribute name="title" value="添加新房间成功"/>
+        <put-attribute name="body" value="/WEB-INF/views/pages/addRoomSucceed.jsp"/>
+    </definition>
+
+    <definition name="room.endSucceed" extends="base-definition">
+        <put-attribute name="title" value="添加新房间成功"/>
+        <put-attribute name="body" value="/WEB-INF/views/pages/deleteRoomSucceed.jsp"/>
+    </definition>
+
+    <definition name="room.user.joinSucceed" extends="base-definition">
+        <put-attribute name="title" value="加入房间成功"/>
+        <put-attribute name="body" value="/WEB-INF/views/pages/joinRoomSucceed.jsp"/>
+    </definition>
+
+    <definition name="comment/receivedComments" extends="base-definition">
+        <put-attribute name="title" value="收到评论"/>
+        <put-attribute name="body" value="/WEB-INF/views/pages/comment/receivedComments.jsp"/>
+    </definition>
+
+    <definition name="comment/sendedComments" extends="base-definition">
+        <put-attribute name="title" value="发出评论"/>
+        <put-attribute name="body" value="/WEB-INF/views/pages/comment/sendedComments.jsp"/>
+    </definition>
+
+
+    <definition name="journey/journeys" extends="base-definition">
+        <put-attribute name="title" value="我的出行-我是房主"/>
+        <put-attribute name="body" value="/WEB-INF/views/pages/journey/journeys.jsp">
+        </put-attribute>
+    </definition>
+    <definition name="journey/myTrack" extends="base-definition">
+        <put-attribute name="title" value="我的足迹">
+        </put-attribute>
+        <put-attribute name="body" value="/WEB-INF/views/pages/journey/myTrack.jsp">
+        </put-attribute>
+    </definition>
+    <definition name="room.edit" extends="base-definition">
+        <put-attribute name="title" value="修改房间信息"/>
+        <put-attribute name="body" value="/WEB-INF/views/pages/editRoomInfo.jsp"/>
+    </definition>
+
+    <definition name="room.search" extends="base-definition">
+        <put-attribute name="title" value="搜索结果"/>
+        <put-attribute name="body" value="/WEB-INF/views/pages/searchResult.jsp"/>
+    </definition>
+
+    <definition name="room.chat" extends="base-definition">
+        <put-attribute name="title" value="聊天室"/>
+        <put-attribute name="body" value="/WEB-INF/views/pages/chatPage.jsp"/>
+    </definition>
+
+    <definition name="user.profile" extends="base-definition">
+        <put-attribute name="title" value="个人中心"/>
+        <put-attribute name="body" value="/WEB-INF/views/pages/profile.jsp"/>
+    </definition>
+    <definition name="comment/lookOtherComments" extends="base-definition">
+        <put-attribute name="title" value="他的信誉评价"/>
+        <put-attribute name="body" value="/WEB-INF/views/pages/comment/lookOtherComments.jsp"/>
+    </definition>
+
+
+    <definition name="user.profile.edit" extends="base-definition">
+        <put-attribute name="title" value="修改信息"/>
+        <put-attribute name="body" value="/WEB-INF/views/pages/profileEdit.jsp"/>
+    </definition>
+    <definition name="user.profile.journey" extends="base-definition">
+        <put-attribute name="title" value="约车记录"/>
+        <put-attribute name="body" value="/WEB-INF/views/pages/profileRooms.jsp"/>
+    </definition>
+</tiles-definitions>
+

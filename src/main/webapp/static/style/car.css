@@ -1,0 +1,495 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, div, p, ul, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, form, input, select, button, textarea, iframe, table, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+/*字体*/
+body {
+    /*font: 14px/21px '微软雅黑';*/
+    /*_font-family: '微软雅黑' !important;*/
+    text-align: left;
+    background: #fff;
+    color: #333;
+}
+
+/*包裹 IE8居中*/
+#wrap {
+    text-align: left;
+}
+
+/*ul*/
+ul {
+    list-style: none;
+}
+
+/*a*/
+a {
+    text-decoration: none;
+    outline: none;
+}
+
+/*img*/
+img {
+    border: 0 none;
+    max-width: 100%;
+}
+
+/*浮动*/
+.fl {
+    float: left;
+    display: inline;
+}
+
+.fr {
+    float: right;
+    display: inline;
+}
+
+/*清除浮动*/
+.clear {
+    clear: both;
+}
+
+/*塌陷*/
+.clearfix {
+    zoom: 1;
+}
+
+.clearfix:before, .clearfix:after {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+/*********乘客页面**************/
+.top {
+    left: 0;
+    top: 0;
+    height: 44px;
+    line-height: 44px;
+    width: 100%;
+    background: #fff;
+    color: #666;
+    font-size: 16px;
+    text-align: center;
+    z-index: 10000;
+}
+
+input {
+    border: 1px solid #ccc;
+}
+
+.tab {
+    width: 50%;
+    text-align: center;
+    border-bottom: 2px solid #eee;
+}
+
+.top .tab:first-child {
+    border-right: 1px solid #eee;
+}
+
+.centerMain {
+    width: 100%;
+    overflow: hidden;
+    background: #f5f5f5;
+    padding-top: 50px;
+}
+
+.tabActive { /*background:#169bd5;*/
+    border-bottom: 2px solid #42b2c4;
+    color: #42b2c4;
+    box-sizing: border-box;
+}
+
+.tab-container {
+    padding-top: 15px;
+    width: 100%;
+    overflow: hidden;
+    position: relative
+}
+
+.form1 {
+    margin-top: 10px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.ui-select select,
+.ui-form-item input {
+    line-height: 44px;
+}
+
+.inputSpot {
+    height: 34px;
+    width: 100%;
+    box-sizing: border-box;
+    border-width: 0;
+    font-size: .17rem;
+    background: transparent;
+    padding: 0 15px;
+}
+
+.inputSpot:focus {
+    background: transparent;
+}
+
+.toSpot {
+    text-align: right;
+}
+
+.leftInput {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+    height: 55px;
+}
+
+.rightDiv {
+    width: 20%;
+}
+
+.mt40 {
+    margin-top: 40px;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.border {
+    border: 1px solid #666;
+    height: 80px;
+    border-left: none;
+    margin-top: 18px;
+    position: relative;
+}
+
+.change {
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 50%;
+    width: 80px;
+    height: 54px;
+    margin-left: -40px;
+    padding: 10px 0;
+    background: #fff;
+}
+
+.change-driver {
+    position: absolute;
+    top: 50%;
+    bottom: 0;
+    left: 50%;
+    width: 80px;
+    height: 55px;
+    margin-left: -40px;
+    margin-top: -27.5px;
+    padding: 10px 0;
+    background: #fff;
+    z-index: 1000;
+}
+
+.change .ico,
+.change-driver .ico {
+    width: 48px;
+    height: 48px;
+    margin: 0 auto;
+    background: url(../images/change.png) no-repeat;
+    background-size: 38px 38px;
+    display: block;
+}
+
+.select1 {
+    width: 25%;
+    height: 38px;
+    border: 1px solid #ccc;
+}
+
+.span {
+    line-height: 38px;
+    font-size: 16px;
+    width: 10%;
+    text-align: center;
+}
+
+.plate::-moz-placeholder {
+    color: #fff;
+}
+
+.plate::-webkit-input-placeholder {
+    color: #fff;
+}
+
+.plate::-ms-input-placeholder {
+    color: #fff;
+}
+
+.platehover::-moz-placeholder {
+    color: #999;
+}
+
+.platehover::-webkit-input-placeholder {
+    color: #999;
+}
+
+.platehover::-ms-input-placeholder {
+    color: #999;
+}
+
+.plate {
+    height: 38px;
+    width: 65%;
+}
+
+.ptel {
+    width: 65%;
+}
+
+.pname {
+    width: 25%;
+}
+
+.ptel input, .pname input {
+    width: 100%;
+    height: 38px;
+}
+
+.car {
+    width: 25%;
+    height: 38px;
+}
+
+.cost, .code1 {
+    height: 38px;
+    width: 75%;
+}
+
+.right {
+    font-size: 20px;
+    font-weight: bold;
+    color: #09BB07;
+    width: 10%;
+    text-align: center;
+    line-height: 38px;
+    display: none;
+}
+
+.imgCode, .code, .code2 {
+    width: 20%;
+    height: 38px;
+    margin-left: 3%;
+    background: #eee;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.imgCode img {
+    height: 100%;
+}
+
+.btn1, .btn2 {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    height: 38px; /*background:#09BB07;*/
+    background: #666;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.item {
+    line-height: 14px;
+    text-align: center;
+}
+
+.foot {
+    background: #09BB07;
+    height: 44px;
+    text-align: center;
+    color: #fff;
+    margin-top: 50px;
+    line-height: 44px;
+}
+
+/******我是司机********/
+.city1 {
+    height: 38px;
+    width: 45%;
+}
+
+.form2 {
+    margin-top: 10px;
+    display: none;
+}
+
+.input1 {
+    height: 38px;
+    width: 100%;
+}
+
+.input2 {
+    width: 25%;
+    height: 38px;
+    margin-left: 3%;
+}
+
+.input2 input {
+    width: 100%;
+    height: 38px;
+    text-align: center;
+}
+
+/***********弹出层的那些事***********/
+.demo {
+    position: relative;
+    width: 45%;
+    height: 48px;
+    padding-top: 10px;
+}
+
+.demo label {
+    font-size: .15rem;
+}
+
+.demo .text {
+    line-height: 16px;
+    background: #fff;
+    width: 100%;
+    position: absolute;
+    color: #666;
+    top: -5px;
+}
+
+.demo .text.cf {
+    left: 15px;
+    text-align: left;
+}
+
+.text.dd {
+    right: 15px;
+    text-align: right;
+}
+
+.text1 {
+    line-height: 16px;
+    background: #fff;
+    width: 53px;
+    text-align: center;
+    position: absolute;
+    color: #666;
+    left: 0px;
+    top: 11px;
+}
+
+.text2 {
+    line-height: 16px;
+    background: #fff;
+    width: 35px;
+    text-align: center;
+    position: absolute;
+    color: #666;
+    left: 0px;
+    top: 11px;
+}
+
+.text3 {
+    line-height: 16px;
+    background: #fff;
+    width: 105px;
+    text-align: center;
+    position: absolute;
+    color: #666;
+    left: 0px;
+    top: 11px;
+}
+
+.confirm {
+    width: 70%;
+    position: fixed;
+    min-height: 30px;
+    border: 1px solid #999;
+    background: #fff;
+    border-radius: 5px;
+    z-index: 99999 !important;
+    left: 15%;
+    display: none;
+}
+
+.hideTop {
+    line-height: 50px;
+    padding: 0 10px;
+    font-weight: bold;
+    color: #333;
+    border-bottom: 1px solid #ccc;
+}
+
+.close {
+    font-size: 25px;
+    font-weight: bold;
+    color: #999;
+}
+
+.xt {
+    text-align: center;
+    line-height: 30px;
+    padding: 0 10px;
+    display: none;
+}
+
+.time-tag {
+    padding-left: 15px;
+    font-size: .14rem;
+    color: #bbb;
+    padding-top: 5px;
+    display: inline-block;
+}
+
+@media (max-width: 320px) {
+    .time-tag {
+        padding-left: 10px;
+    }
+
+    .demo .text.cf {
+        left: 10px;
+    }
+
+    .demo .text.dd {
+        right: 10px;
+    }
+
+    .inputSpot {
+        padding: 0 10px;
+    }
+}
+
+.ui-select {
+    padding: 0 5px;
+}
+
+.has-error {
+    color: red;
+}

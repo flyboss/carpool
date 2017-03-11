@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>aefeb4bc-79a3-4194-85ed-310e68a8407d</OriginalElement>
+  <nodes>
+    <node x="90.95704216794269" y="683.2669826224328">aefeb4bc-79a3-4194-85ed-310e68a8407d.TABLE:carpool.chatrecord</node>
+    <node x="254.4230769230769" y="348.89415481832555">aefeb4bc-79a3-4194-85ed-310e68a8407d.TABLE:carpool.room</node>
+    <node x="216.93176570664713" y="-225.2764612954187">aefeb4bc-79a3-4194-85ed-310e68a8407d.TABLE:carpool.user</node>
+    <node x="816.7880058330295" y="195.96524486571877">aefeb4bc-79a3-4194-85ed-310e68a8407d.TABLE:carpool.paymentrecord</node>
+    <node x="493.3646251063314" y="771.9241706161137">aefeb4bc-79a3-4194-85ed-310e68a8407d.TABLE:carpool.journey</node>
+    <node x="796.9412443796331" y="770.7290679304897">aefeb4bc-79a3-4194-85ed-310e68a8407d.TABLE:carpool.user_participate_room</node>
+    <node x="-316.84044233807265" y="996.6445497630332">aefeb4bc-79a3-4194-85ed-310e68a8407d.TABLE:carpool.comment</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="aefeb4bc-79a3-4194-85ed-310e68a8407d.TABLE:carpool.user_participate_room" target="aefeb4bc-79a3-4194-85ed-310e68a8407d.TABLE:carpool.room">
+      <point x="-53.5" y="-43.5" />
+      <point x="585.9230769230769" y="651.0" />
+      <point x="511.0897435897436" y="651.0" />
+      <point x="102.66666666666669" y="148.0" />
+    </edge>
+    <edge source="aefeb4bc-79a3-4194-85ed-310e68a8407d.TABLE:carpool.comment" target="aefeb4bc-79a3-4194-85ed-310e68a8407d.TABLE:carpool.user">
+      <point x="0.0" y="-96.0" />
+      <point x="114.0" y="867.0" />
+      <point x="65.92307692307696" y="867.0" />
+      <point x="65.92307692307696" y="300.0" />
+      <point x="239.42307692307685" y="300.0" />
+      <point x="-92.0" y="135.0" />
+    </edge>
+    <edge source="aefeb4bc-79a3-4194-85ed-310e68a8407d.TABLE:carpool.comment" target="aefeb4bc-79a3-4194-85ed-310e68a8407d.TABLE:carpool.journey">
+      <point x="76.0" y="-96.0" />
+      <point x="190.0" y="867.0" />
+      <point x="408.42307692307696" y="867.0" />
+      <point x="0.0" y="83.0" />
+    </edge>
+    <edge source="aefeb4bc-79a3-4194-85ed-310e68a8407d.TABLE:carpool.user_participate_room" target="aefeb4bc-79a3-4194-85ed-310e68a8407d.TABLE:carpool.user">
+      <point x="53.5" y="-43.5" />
+      <point x="692.9230769230769" y="300.0" />
+      <point x="423.42307692307685" y="300.0" />
+      <point x="92.0" y="135.0" />
+    </edge>
+    <edge source="aefeb4bc-79a3-4194-85ed-310e68a8407d.TABLE:carpool.room" target="aefeb4bc-79a3-4194-85ed-310e68a8407d.TABLE:carpool.user">
+      <point x="-77.00000000000006" y="-148.0" />
+      <point x="0.0" y="135.0" />
+    </edge>
+    <edge source="aefeb4bc-79a3-4194-85ed-310e68a8407d.TABLE:carpool.paymentrecord" target="aefeb4bc-79a3-4194-85ed-310e68a8407d.TABLE:carpool.user">
+      <point x="0.0" y="-96.0" />
+      <point x="817.4230769230769" y="290.0" />
+      <point x="469.42307692307685" y="290.0" />
+      <point x="138.0" y="135.0" />
+    </edge>
+    <edge source="aefeb4bc-79a3-4194-85ed-310e68a8407d.TABLE:carpool.journey" target="aefeb4bc-79a3-4194-85ed-310e68a8407d.TABLE:carpool.room">
+      <point x="-5.6843418860808015E-14" y="-83.0" />
+      <point x="0.0" y="148.0" />
+    </edge>
+    <edge source="aefeb4bc-79a3-4194-85ed-310e68a8407d.TABLE:carpool.chatrecord" target="aefeb4bc-79a3-4194-85ed-310e68a8407d.TABLE:carpool.user">
+      <point x="-52.0" y="-83.0" />
+      <point x="128.42307692307696" y="310.0" />
+      <point x="285.42307692307685" y="310.0" />
+      <point x="-46.0" y="135.0" />
+    </edge>
+    <edge source="aefeb4bc-79a3-4194-85ed-310e68a8407d.TABLE:carpool.chatrecord" target="aefeb4bc-79a3-4194-85ed-310e68a8407d.TABLE:carpool.room">
+      <point x="52.0" y="-83.0" />
+      <point x="232.42307692307696" y="651.0" />
+      <point x="305.7564102564102" y="651.0" />
+      <point x="-102.66666666666669" y="148.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6880434782608695" x="391.71090047393363" y="467.7093206951027" />
+  <SelectedNodes>
+    <node>aefeb4bc-79a3-4194-85ed-310e68a8407d.TABLE:carpool.room</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Key columns</Category>
+    <Category>Columns</Category>
+  </Categories>
+</Diagram>
+
