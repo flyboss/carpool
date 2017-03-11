@@ -171,7 +171,7 @@
                         </div>
                         <!--Avatar-->
                         <div class="avatar"><img
-                                src="http://115.159.126.118:9000/uploads/user/avatar/17/12718118-small.jpg"
+                                src="/static/images/nova.jpg"
                                 class="rounded-circle img-responsive">
                         </div>
                         <!--Content-->
